@@ -90,7 +90,7 @@ class ViewController: UIViewController {
     override func prepare(for seque: UIStoryboardSegue, sender: Any?){
         let resultViewController:ResultViewController = seque.destination as! ResultViewController
         
-        resultViewController.imageView = self.imageView
+        resultViewController.image = imageView.image!
     }
 
     override func didReceiveMemoryWarning() {

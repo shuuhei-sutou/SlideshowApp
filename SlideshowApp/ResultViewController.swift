@@ -12,16 +12,18 @@ class ResultViewController: UIViewController {
     
     @IBOutlet weak var frame: UIImageView!
     
-    var imageView = UIImage()
+    var image = UIImage()
     
     var transScale = CGAffineTransform()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var imageView = UIImage()
+        frame.image = image
         
-        transScale = CGAffineTransform(scaleX: 2, y: 2)
+        transScale = CGAffineTransform(scaleX: 1.9, y: 1.9)
+        
+        frame.transform = transScale
 
         // Do any additional setup after loading the view.
     }
