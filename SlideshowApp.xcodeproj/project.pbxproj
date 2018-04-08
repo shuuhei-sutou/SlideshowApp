@@ -13,10 +13,10 @@
 		CE319BF820747E8A0074BE32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE319BF620747E8A0074BE32 /* Main.storyboard */; };
 		CE319BFA20747E8A0074BE32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE319BF920747E8A0074BE32 /* Assets.xcassets */; };
 		CE319BFD20747E8A0074BE32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE319BFB20747E8A0074BE32 /* LaunchScreen.storyboard */; };
-		CE319C0A20748B4F0074BE32 /* cat4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE319C0620748B4E0074BE32 /* cat4.jpeg */; };
-		CE319C0B20748B4F0074BE32 /* cat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE319C0720748B4E0074BE32 /* cat2.jpeg */; };
-		CE319C0C20748B4F0074BE32 /* cat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE319C0820748B4F0074BE32 /* cat3.jpeg */; };
-		CE319C0D20748B4F0074BE32 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE319C0920748B4F0074BE32 /* cat.jpeg */; };
+		CEF7C143207A31130055D84B /* cat4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF7C13F207A31130055D84B /* cat4.jpeg */; };
+		CEF7C144207A31130055D84B /* cat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF7C140207A31130055D84B /* cat2.jpeg */; };
+		CEF7C145207A31130055D84B /* cat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF7C141207A31130055D84B /* cat3.jpeg */; };
+		CEF7C146207A31130055D84B /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF7C142207A31130055D84B /* cat.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		CE319BF920747E8A0074BE32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE319BFC20747E8A0074BE32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE319BFE20747E8A0074BE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE319C0620748B4E0074BE32 /* cat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat4.jpeg; sourceTree = "<group>"; };
-		CE319C0720748B4E0074BE32 /* cat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.jpeg; sourceTree = "<group>"; };
-		CE319C0820748B4F0074BE32 /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpeg; sourceTree = "<group>"; };
-		CE319C0920748B4F0074BE32 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpeg; path = ../../../Downloads/cat.jpeg; sourceTree = "<group>"; };
+		CEF7C13F207A31130055D84B /* cat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat4.jpeg; path = ../../../Downloads/cat4.jpeg; sourceTree = "<group>"; };
+		CEF7C140207A31130055D84B /* cat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat2.jpeg; path = ../../../Downloads/cat2.jpeg; sourceTree = "<group>"; };
+		CEF7C141207A31130055D84B /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat3.jpeg; path = ../../../Downloads/cat3.jpeg; sourceTree = "<group>"; };
+		CEF7C142207A31130055D84B /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpeg; path = ../../../Downloads/cat.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +64,12 @@
 		CE319BF120747E8A0074BE32 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEF7C142207A31130055D84B /* cat.jpeg */,
+				CEF7C140207A31130055D84B /* cat2.jpeg */,
+				CEF7C141207A31130055D84B /* cat3.jpeg */,
+				CEF7C13F207A31130055D84B /* cat4.jpeg */,
 				CE319BF220747E8A0074BE32 /* AppDelegate.swift */,
 				CE319BF420747E8A0074BE32 /* ViewController.swift */,
-				CE319C0920748B4F0074BE32 /* cat.jpeg */,
-				CE319C0720748B4E0074BE32 /* cat2.jpeg */,
-				CE319C0820748B4F0074BE32 /* cat3.jpeg */,
-				CE319C0620748B4E0074BE32 /* cat4.jpeg */,
 				CE319BF620747E8A0074BE32 /* Main.storyboard */,
 				CE319BF920747E8A0074BE32 /* Assets.xcassets */,
 				CE319BFB20747E8A0074BE32 /* LaunchScreen.storyboard */,
@@ -138,12 +138,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE319C0B20748B4F0074BE32 /* cat2.jpeg in Resources */,
+				CEF7C144207A31130055D84B /* cat2.jpeg in Resources */,
 				CE319BFD20747E8A0074BE32 /* LaunchScreen.storyboard in Resources */,
-				CE319C0A20748B4F0074BE32 /* cat4.jpeg in Resources */,
+				CEF7C143207A31130055D84B /* cat4.jpeg in Resources */,
 				CE319BFA20747E8A0074BE32 /* Assets.xcassets in Resources */,
-				CE319C0C20748B4F0074BE32 /* cat3.jpeg in Resources */,
-				CE319C0D20748B4F0074BE32 /* cat.jpeg in Resources */,
+				CEF7C145207A31130055D84B /* cat3.jpeg in Resources */,
+				CEF7C146207A31130055D84B /* cat.jpeg in Resources */,
 				CE319BF820747E8A0074BE32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
