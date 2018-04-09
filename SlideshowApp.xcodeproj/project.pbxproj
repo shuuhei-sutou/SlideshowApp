@@ -13,6 +13,10 @@
 		CE319BF820747E8A0074BE32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE319BF620747E8A0074BE32 /* Main.storyboard */; };
 		CE319BFA20747E8A0074BE32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE319BF920747E8A0074BE32 /* Assets.xcassets */; };
 		CE319BFD20747E8A0074BE32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE319BFB20747E8A0074BE32 /* LaunchScreen.storyboard */; };
+		CEB169E3207B774D005482B5 /* cat4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEB169DF207B774D005482B5 /* cat4.jpeg */; };
+		CEB169E4207B774D005482B5 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEB169E0207B774D005482B5 /* cat.jpeg */; };
+		CEB169E5207B774D005482B5 /* cat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEB169E1207B774D005482B5 /* cat3.jpeg */; };
+		CEB169E6207B774D005482B5 /* cat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEB169E2207B774D005482B5 /* cat2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +28,10 @@
 		CE319BF920747E8A0074BE32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE319BFC20747E8A0074BE32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE319BFE20747E8A0074BE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEB16989207B65B5005482B5 /* cat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat4.jpeg; path = ../../../Downloads/cat4.jpeg; sourceTree = "<group>"; };
-		CEB1698A207B65B5005482B5 /* cat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat2.jpeg; path = ../../../Downloads/cat2.jpeg; sourceTree = "<group>"; };
-		CEB1698B207B65B6005482B5 /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat3.jpeg; path = ../../../Downloads/cat3.jpeg; sourceTree = "<group>"; };
-		CEB1698C207B65B6005482B5 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpeg; path = ../../../Downloads/cat.jpeg; sourceTree = "<group>"; };
+		CEB169DF207B774D005482B5 /* cat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat4.jpeg; sourceTree = "<group>"; };
+		CEB169E0207B774D005482B5 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
+		CEB169E1207B774D005482B5 /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpeg; sourceTree = "<group>"; };
+		CEB169E2207B774D005482B5 /* cat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +64,10 @@
 		CE319BF120747E8A0074BE32 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
-				CEB1698C207B65B6005482B5 /* cat.jpeg */,
-				CEB1698A207B65B5005482B5 /* cat2.jpeg */,
-				CEB1698B207B65B6005482B5 /* cat3.jpeg */,
-				CEB16989207B65B5005482B5 /* cat4.jpeg */,
+				CEB169E0207B774D005482B5 /* cat.jpeg */,
+				CEB169E2207B774D005482B5 /* cat2.jpeg */,
+				CEB169E1207B774D005482B5 /* cat3.jpeg */,
+				CEB169DF207B774D005482B5 /* cat4.jpeg */,
 				CE319BF220747E8A0074BE32 /* AppDelegate.swift */,
 				CE319BF420747E8A0074BE32 /* ViewController.swift */,
 				CE319BF620747E8A0074BE32 /* Main.storyboard */,
@@ -134,8 +138,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB169E4207B774D005482B5 /* cat.jpeg in Resources */,
 				CE319BFD20747E8A0074BE32 /* LaunchScreen.storyboard in Resources */,
+				CEB169E3207B774D005482B5 /* cat4.jpeg in Resources */,
+				CEB169E6207B774D005482B5 /* cat2.jpeg in Resources */,
 				CE319BFA20747E8A0074BE32 /* Assets.xcassets in Resources */,
+				CEB169E5207B774D005482B5 /* cat3.jpeg in Resources */,
 				CE319BF820747E8A0074BE32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
